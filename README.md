@@ -1,2 +1,0 @@
-# jspiano
-Javascript piano
