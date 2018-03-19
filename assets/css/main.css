@@ -1,0 +1,112 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+========================================
+Custom styles
+========================================
+*/
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    font-family: apple-chancery, sans-serif;
+    background-color: rgba(255, 255, 255, .6);
+    margin-bottom: 100px;
+}
+
+body {
+    background: linear-gradient(green, white);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#aantaltoetsen {
+    text-align: center;
+}
+
+ul {
+	height:20em; width:34em;
+    margin:1em auto; 
+    padding:3em 0 0 3em; 
+    position:relative; 
+    border:1px solid;  
+    border-radius:1em; 
+    background-color: black;
+    box-shadow:0 0 50px; 
+}
+
+.qwerty {
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 50px;
+    border: 1px solid #ccc;
+    background: #fff;
+    border-radius: 0.7rem;
+    width: 6%;
+    padding: 8rem 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.qwerty:active {
+    color: black;
+    border-top:1px solid;
+	border-left:1px solid;
+	border-bottom:1px solid;
+	box-shadow:2px 0 3px rgba(0,0,0,0.1) inset, -5px 5px 20px rgba(0,0,0,0.2) inset,0 0 3px rgba(0,0,0,0.2);
+	
+}
+
+
+li:first-child {
+    margin-left: 40px; 
+}
